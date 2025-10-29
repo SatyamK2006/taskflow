@@ -61,6 +61,8 @@ npm run dev
 ###4️⃣ Build for production
 npm run build
 
+---
+
 ##🌍 Deployment (GitHub Pages)
 
 ###To deploy manually:
@@ -102,10 +104,14 @@ Click Save
 
 🌓 Dark mode
 
+---
+
 ##💡 Project Purpose
 
 TaskFlow demonstrates how to build a modern productivity tool using React, Tailwind CSS, and Vite.
 It’s an excellent project for portfolios, hackathons, or learning advanced frontend concepts.
+
+---
 
 ##📸 Preview
 
@@ -113,6 +119,8 @@ It’s an excellent project for portfolios, hackathons, or learning advanced fro
 
 
 ![TaskFlow Preview](./public/preview.png)
+
+---
 
 ##👨‍💻 Author
 
