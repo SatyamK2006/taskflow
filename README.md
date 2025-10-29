@@ -52,18 +52,18 @@ It helps users **create, organize, and track their daily tasks** with a clean an
 git clone https://github.com/SatyamK2006/taskflow.git
 cd taskflow
 
-2️⃣ Install dependencies
+###2️⃣ Install dependencies
 npm install
 
-3️⃣ Start the development server
+###3️⃣ Start the development server
 npm run dev
 
-4️⃣ Build for production
+###4️⃣ Build for production
 npm run build
 
-🌍 Deployment (GitHub Pages)
+##🌍 Deployment (GitHub Pages)
 
-To deploy manually:
+###To deploy manually:
 
 npm run build
 git add dist -f
@@ -74,7 +74,7 @@ git reset HEAD~1
 git branch -D gh-pages
 
 
-Then enable GitHub Pages:
+###Then enable GitHub Pages:
 
 Go to your repo → Settings → Pages
 
@@ -84,7 +84,7 @@ Select Branch: gh-pages and Folder: / (root)
 
 Click Save
 
-After a few minutes, your app will be live at:
+###After a few minutes, your app will be live at:
 
 👉 https://satyamk2006.github.io/taskflow/
 
@@ -102,19 +102,19 @@ After a few minutes, your app will be live at:
 
 🌓 Dark mode
 
-💡 Project Purpose
+##💡 Project Purpose
 
 TaskFlow demonstrates how to build a modern productivity tool using React, Tailwind CSS, and Vite.
 It’s an excellent project for portfolios, hackathons, or learning advanced frontend concepts.
 
-📸 Preview
+##📸 Preview
 
 <img width="1919" height="916" alt="Screenshot 2025-10-29 192752" src="https://github.com/user-attachments/assets/f68c3b19-1756-4659-a202-9d5b4f192690" />
 
 
 ![TaskFlow Preview](./public/preview.png)
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Satyam Khandual
 🔗 GitHub Profile
