@@ -1,72 +1,71 @@
-# 📝 TaskFlow — Smart Task Management App
+📝 TaskFlow — Smart Task Management App
 
-TaskFlow is a sleek and responsive **task management web application** built using **React**, **Vite**, and **Tailwind CSS**.  
-It helps users **create, organize, and track their daily tasks** with a clean and minimal interface.
+TaskFlow is a sleek, minimal, and responsive task management web application built using React, Vite, and Tailwind CSS.
+It helps users create, organize, and track their daily tasks with an elegant, clutter-free interface.
 
----
+🌟 Features
 
-## 🌟 Features
+✅ Add / Edit / Delete Tasks — Manage your daily goals with ease.
 
-- ✅ **Add / Edit / Delete Tasks** — Manage your tasks easily.
-- 🕒 **Mark as Complete / Pending** — Stay on top of progress.
-- 🔍 **Filter Tasks** — View “All”, “Active”, or “Completed” tasks.
-- 🎨 **Responsive UI** — Works perfectly on mobile, tablet, and desktop.
-- ⚡ **Lightning Fast** — Powered by **Vite** for fast builds and reloads.
-- 💾 **LocalStorage Support (optional)** — Keep your data even after reload.
-- 🔒 **Backend Ready** — Designed for easy future API integration.
+🕒 Mark Tasks as Complete / Pending — Stay organized and track progress.
 
----
+🔍 Filter Tasks — Switch between All, Active, or Completed views.
 
-## 🧱 Tech Stack
+🎨 Fully Responsive UI — Works perfectly on desktop, tablet, and mobile.
 
-| Category | Tools Used |
-|-----------|-------------|
-| **Frontend Framework** | React + Vite |
-| **Styling** | Tailwind CSS |
-| **Icons** | Lucide Icons / Heroicons |
-| **State Management** | React Hooks (useState, useEffect) |
-| **Deployment** | GitHub Pages |
-| **Version Control** | Git + GitHub |
+⚡ Lightning Fast Builds — Powered by Vite for blazing-fast performance.
 
----
+💾 LocalStorage Support — Keep your data even after refreshing the page.
 
-## 🧭 Topics Covered
+🔒 Backend Ready — Structured to easily integrate APIs in the future.
 
-- React component structure  
-- Tailwind CSS utility-first styling  
-- useState and useEffect hooks  
-- Conditional rendering  
-- Event handling in React  
-- Local storage persistence  
-- Responsive layout (Flexbox & Grid)  
-- Git & GitHub workflow  
-- GitHub Pages deployment  
-- Vite project configuration  
+🧱 Tech Stack
+Category	Tools Used
+Frontend Framework	React (Vite)
+Styling	Tailwind CSS
+Icons	Lucide Icons / Heroicons
+State Management	React Hooks (useState, useEffect)
+Deployment	GitHub Pages
+Version Control	Git + GitHub
+🧭 Topics Covered
 
----
+React component structure
 
-## 🚀 Getting Started
+Tailwind CSS utility-first styling
 
-### 1️⃣ Clone the repository
-```bash
+React hooks: useState and useEffect
+
+Conditional rendering and event handling
+
+Persistent data storage using LocalStorage
+
+Responsive design with Flexbox & Grid
+
+Git and GitHub project workflow
+
+GitHub Pages deployment
+
+Vite project optimization and configuration
+
+🚀 Getting Started
+1️⃣ Clone the Repository
 git clone https://github.com/SatyamK2006/taskflow.git
 cd taskflow
 
-###2️⃣ Install dependencies
+2️⃣ Install Dependencies
 npm install
 
-###3️⃣ Start the development server
+3️⃣ Run the Development Server
 npm run dev
 
-###4️⃣ Build for production
+
+Open your browser and visit http://localhost:5173/.
+
+4️⃣ Build for Production
 npm run build
 
----
-
-##🌍 Deployment (GitHub Pages)
-
-###To deploy manually:
-
+🌍 Deployment (GitHub Pages)
+Manual Deployment Steps
 npm run build
 git add dist -f
 git commit -m "temp deploy"
@@ -76,18 +75,18 @@ git reset HEAD~1
 git branch -D gh-pages
 
 
-###Then enable GitHub Pages:
+Then go to your GitHub Repository → Settings → Pages
+Under Build and Deployment, select:
 
-Go to your repo → Settings → Pages
+Source: Deploy from a branch
 
-Choose Deploy from a branch
+Branch: gh-pages
 
-Select Branch: gh-pages and Folder: / (root)
+Folder: / (root)
 
-Click Save
+Click Save ✅
 
-###After a few minutes, your app will be live at:
-
+After a few minutes, your app will be live at:
 👉 https://satyamk2006.github.io/taskflow/
 
 🔮 Future Enhancements
@@ -96,33 +95,27 @@ Click Save
 
 ☁️ Cloud-based task storage
 
-📅 Due dates and reminders
+📅 Task due dates and reminders
 
-🧭 Task categories or tags
+🧭 Categories and tags
 
 📊 Productivity analytics dashboard
 
-🌓 Dark mode
+🌓 Dark / Light mode toggle
 
----
+💡 Project Purpose
 
-##💡 Project Purpose
+TaskFlow is a demonstration of how to build a modern productivity app using React, Tailwind CSS, and Vite.
+It’s ideal for learning frontend concepts, building portfolio projects, or hackathon participation.
 
-TaskFlow demonstrates how to build a modern productivity tool using React, Tailwind CSS, and Vite.
-It’s an excellent project for portfolios, hackathons, or learning advanced frontend concepts.
+📸 Preview
+<img width="100%" alt="TaskFlow Screenshot" src="https://github.com/user-attachments/assets/f68c3b19-1756-4659-a202-9d5b4f192690" />
 
----
-
-##📸 Preview
-
-<img width="1919" height="916" alt="Screenshot 2025-10-29 192752" src="https://github.com/user-attachments/assets/f68c3b19-1756-4659-a202-9d5b4f192690" />
-
+Or add your local preview:
 
 ![TaskFlow Preview](./public/preview.png)
 
----
-
-##👨‍💻 Author
+👨‍💻 Author
 
 Satyam Khandual
 🔗 GitHub Profile
