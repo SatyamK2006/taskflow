@@ -1,16 +1,120 @@
-# React + Vite
+# 📝 TaskFlow — Smart Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow is a sleek and responsive **task management web application** built using **React**, **Vite**, and **Tailwind CSS**.  
+It helps users **create, organize, and track their daily tasks** with a clean and minimal interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- ✅ **Add / Edit / Delete Tasks** — Manage your tasks easily.
+- 🕒 **Mark as Complete / Pending** — Stay on top of progress.
+- 🔍 **Filter Tasks** — View “All”, “Active”, or “Completed” tasks.
+- 🎨 **Responsive UI** — Works perfectly on mobile, tablet, and desktop.
+- ⚡ **Lightning Fast** — Powered by **Vite** for fast builds and reloads.
+- 💾 **LocalStorage Support (optional)** — Keep your data even after reload.
+- 🔒 **Backend Ready** — Designed for easy future API integration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧱 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category | Tools Used |
+|-----------|-------------|
+| **Frontend Framework** | React + Vite |
+| **Styling** | Tailwind CSS |
+| **Icons** | Lucide Icons / Heroicons |
+| **State Management** | React Hooks (useState, useEffect) |
+| **Deployment** | GitHub Pages |
+| **Version Control** | Git + GitHub |
+
+---
+
+## 🧭 Topics Covered
+
+- React component structure  
+- Tailwind CSS utility-first styling  
+- useState and useEffect hooks  
+- Conditional rendering  
+- Event handling in React  
+- Local storage persistence  
+- Responsive layout (Flexbox & Grid)  
+- Git & GitHub workflow  
+- GitHub Pages deployment  
+- Vite project configuration  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/SatyamK2006/taskflow.git
+cd taskflow
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start the development server
+npm run dev
+
+4️⃣ Build for production
+npm run build
+
+🌍 Deployment (GitHub Pages)
+
+To deploy manually:
+
+npm run build
+git add dist -f
+git commit -m "temp deploy"
+git subtree split --prefix dist -b gh-pages
+git push -f origin gh-pages:gh-pages
+git reset HEAD~1
+git branch -D gh-pages
+
+
+Then enable GitHub Pages:
+
+Go to your repo → Settings → Pages
+
+Choose Deploy from a branch
+
+Select Branch: gh-pages and Folder: / (root)
+
+Click Save
+
+After a few minutes, your app will be live at:
+
+👉 https://satyamk2006.github.io/taskflow/
+
+🔮 Future Enhancements
+
+🔑 User authentication (Firebase / Node.js backend)
+
+☁️ Cloud-based task storage
+
+📅 Due dates and reminders
+
+🧭 Task categories or tags
+
+📊 Productivity analytics dashboard
+
+🌓 Dark mode
+
+💡 Project Purpose
+
+TaskFlow demonstrates how to build a modern productivity tool using React, Tailwind CSS, and Vite.
+It’s an excellent project for portfolios, hackathons, or learning advanced frontend concepts.
+
+📸 Preview
+
+<img width="1919" height="916" alt="Screenshot 2025-10-29 192752" src="https://github.com/user-attachments/assets/f68c3b19-1756-4659-a202-9d5b4f192690" />
+
+
+![TaskFlow Preview](./public/preview.png)
+
+👨‍💻 Author
+
+Satyam Khandual
+🔗 GitHub Profile
