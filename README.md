@@ -68,6 +68,7 @@ It helps users **create, organize, and track their daily tasks** with an elegant
 ### 1️⃣ Clone the Repository
 
 `git clone https://github.com/SatyamK2006/taskflow.git`
+
 `cd taskflow`
 
 ### 2️⃣ Install Dependencies
@@ -92,11 +93,17 @@ Open your browser and visit `http://localhost:5173/`.
 ### Manual Deployment Steps
 
 `npm run build`
+
 `git add dist -f`
+
 `git commit -m "temp deploy"`
+
 `git subtree split --prefix dist -b gh-pages`
+
 `git push -f origin gh-pages:gh-pages`
+
 `git reset HEAD~1`
+
 `git branch -D gh-pages`
 
 Then go to your **GitHub Repository → Settings → Pages**\
